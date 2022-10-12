@@ -1,3 +1,5 @@
 # docx-to-json
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-12nnij)
+    git clone https://github.com/christian-kesler-2022/docx-to-json
+    cd docx-to-json
+    docker build . -t docx_to_json
