@@ -4,7 +4,8 @@ WORKDIR /src
 
 RUN npm install npm@latest --location=global
 # RUN npm install -g nodemon
-RUN npm install
+RUN npm install express
+RUN npm install docx-to-html
 
 COPY /src .
 
